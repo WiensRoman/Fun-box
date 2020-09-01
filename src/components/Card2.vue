@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card2">
     <div
       class="border"
       @click="selected = !selected"
@@ -10,17 +10,19 @@
     <div class="back">
       <span>Сказочное заморское явство</span>
       <span>Нямушка</span>
-      <span>с фуа-гра</span>
-      <span>10 порций мышь в подарок</span>
+      <span>с рыбой</span>
+      <span>40 порций 2 мыши в подарок</span>
       <div class="cat"><div class="image"></div></div>
       <div class="oval" :class="{ selectedOval: selected }">
-        <span>0,5</span>
+        <span>2</span>
         <span>кг</span>
       </div>
       <div class="footer" v-if="!selected">
         Чего сидишь? Порадуй котэ, <a @click="selected = !selected">купи.</a>
       </div>
-      <div class="footer" v-else>Печень утки разварная с артишоками</div>
+      <div class="footer" v-else>
+        Головы щучьи с чесночком да свежайшая сёмгушка
+      </div>
     </div>
   </div>
 </template>
@@ -50,12 +52,11 @@ export default {
   background: transparent;
   border: 4px solid #1698d9;
 }
-
-.card {
+.card2 {
   position: absolute;
   width: 320px;
   height: 509px;
-  left: 10%;
+  left: 40%;
   top: 104px;
   border-radius: 17px;
   box-sizing: border-box;
@@ -124,7 +125,7 @@ export default {
   left: 15.94%;
   top: calc(50% - 28px / 2 - 140.5px);
 
-  font-family: Trebuchet MS;
+  font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -136,7 +137,7 @@ export default {
   position: absolute;
   top: 28%;
   left: 15.94%;
-  font-family: Trebuchet MS;
+  font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -174,33 +175,27 @@ export default {
 .oval span:nth-child(1) {
   position: absolute;
   height: 22px;
-  left: 12%;
+  left: 35%;
   top: 30%;
-
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: normal;
   font-size: 42px;
   line-height: 22px;
-
   text-align: center;
-
   color: #ffffff;
 }
 .oval span:nth-child(2) {
   position: absolute;
   height: 52px;
   top: 55px;
-  left: 18%;
-
+  left: 25%;
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 52%;
-
   text-align: center;
-
   color: #ffffff;
 }
 .back {
