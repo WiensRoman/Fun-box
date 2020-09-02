@@ -130,7 +130,7 @@ export default {
   position: absolute;
   height: 28px;
   left: 15.94%;
-  top: calc(50% - 28px / 2 - 140.5px);
+  top:17%;
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: bold;

@@ -122,9 +122,9 @@ export default {
   position: absolute;
   height: 28px;
   left: 15.94%;
-  top: calc(50% - 28px / 2 - 140.5px);
+  top: 17%;
 
-  font-family: Trebuchet MS;
+  font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -136,7 +136,7 @@ export default {
   position: absolute;
   top: 28%;
   left: 15.94%;
-  font-family: Trebuchet MS;
+  font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
